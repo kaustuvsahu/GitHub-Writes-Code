@@ -17,13 +17,16 @@ def main():
     print('\n'.join(' ' * (10-x) + '*' * (x * 2 + 1) for x in range(10)) + '\n' + '\n'.join(' ' * 8 + '|' * 5 for x in range(4)))
     print("Let's get started!")   
 
-    choice = int(input("Please choose from the following\n1. GitHub\n2. Facebook\n3. Twitter\n")) # Add more choices here
+    choice = int(input("Please choose from the following\n1. GitHub\n2. Facebook\n3. Twitter\n4.Instagram\n")) # Add more choices here
     
     if choice == 1:
         print("https://github.com")
     elif choice == 2:
         print("https://facebook.com")
-
+    elif choice == 3:
+        print("https://twitter.com")
+    elif choice == 4:
+        print("https://instagram.com")
 
 
 if __name__ == "__main__":
